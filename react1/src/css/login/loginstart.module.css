@@ -1,0 +1,23 @@
+.loginstart{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.loginstart h2{
+    text-align: center;
+    margin-top: 280px;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.startinput{
+    width: 80%;
+    margin: 0 auto;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 150px;
+}
+.loginstartbtn{
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+}
