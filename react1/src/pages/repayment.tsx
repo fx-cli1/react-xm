@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function tellogin() {
+export default function repayment() {
     return (
         <div>
-            手机号登录
+            还款
         </div>
     )
 }

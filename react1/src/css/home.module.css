@@ -1,0 +1,97 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+.lbimg{
+    height: 320px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    border: 1px solid rgb(235, 237, 240);
+}
+.jh{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+.jh div{
+    width: 40%;
+    position: relative;
+}
+.jh img{
+    width: 100%;
+    height: 100%;
+}
+.jh h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 700;
+}
+.xy{
+    width: 100%;
+    height: 180px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 30px;
+}
+.xy div{
+    width: 45%;
+    background: #f5f5f5;
+    height: 180px;
+    text-align: center;
+    position: relative;
+}
+.xy img{
+    width: 100%;
+    height: 100%;
+}
+.xy h3{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f00;
+}
+.xy p{
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner{
+    width: 100%;
+    height: 300px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.fl{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:80px ;
+}
+.fl div{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+.fl img{
+    width: 50%;
+    height: 50%;
+}

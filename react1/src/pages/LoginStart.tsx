@@ -21,6 +21,7 @@ export default function LoginStart(props:any) {
     }
     let login=async()=>{
          let {data}=await UserService.query({tel});
+         console.log(data);
          window.localStorage.setItem('tel',tel);
          dispatch(setTel(tel));
          if(data.code){

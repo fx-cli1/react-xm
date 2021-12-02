@@ -1,0 +1,71 @@
+.mine{
+    width: 100%;
+    height: 100%;
+}
+.xx{
+    width: 100%;
+    height: 350px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.right{
+    margin-left: 50px;
+   position: relative;
+}
+.right p input{
+    border: 0px;
+    background: #ccc;
+    outline: none;
+}
+.right span{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+.right h2{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.right h2 span{
+    left: 0;
+}
+.fl1{
+    width: 100%;
+    background: #ccc;
+    padding-bottom: 80px;
+    margin: 0;
+}
+.fl1 li{
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+.fl1 li h3{
+    margin: 0 ;
+}
+.fl2{
+    width: 100%;
+}
+.fl2 li{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+.fl2 li h3{
+    margin: 0 ;
+}

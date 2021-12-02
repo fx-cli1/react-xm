@@ -4,7 +4,9 @@ import App from './App'
 import './css/app.css';
 import 'antd/dist/antd.css';
 import store from "./store";
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
+import 'lib-flexible'; 
+import 'element-theme-default'
 
 
 ReactDom.render(

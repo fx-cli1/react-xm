@@ -1,3 +1,4 @@
 export default {
-    "TEL":"TEL"
+    "TEL":"TEL",
+    "NAVFLAG":"NAVFLAG"
 }

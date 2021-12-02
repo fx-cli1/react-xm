@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function userlogin() {
+export default function Message() {
     return (
         <div>
-            账号密码登录
+            消息
         </div>
     )
 }

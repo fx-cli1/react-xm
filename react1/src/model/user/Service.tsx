@@ -14,8 +14,22 @@ class Service implements IService{
     add(data:any):AxiosPromise{
         return axios({
             method:'post',
-            url:'/apo/users/add',
+            url:'/api/users/add',
             data
+        })
+    }
+    verify(params:any):AxiosPromise{
+        return axios({
+            method:'get',
+            url:'/apc/captcha/verify',
+            params
+        })
+    }
+    sent(params:any):AxiosPromise{
+        return axios({
+            method:'get',
+            url:'/apc/captcha/sent',
+            params
         })
     }
 }

@@ -1,5 +1,5 @@
 // import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react';
 const path = require('path');
 // https://vitejs.dev/config/
 module.exports = {
@@ -26,14 +26,22 @@ module.exports = {
    * @default 'dist'
    */
   outDir: 'dist',
-  // 反向代理，此处应该特别注意，网上很多教程是直接设置proxy，并没有向官网那样添加 server，可能会导致失败，vite官网：https://vitejs.dev/guide/features.html#async-chunk-loading-optimization
-  server: {
+  // // 反向代理，此处应该特别注意，网上很多教程是直接设置proxy，并没有向官网那样添加 server，可能会导致失败，vite官网：https://vitejs.dev/guide/features.html#async-chunk-loading-optimization
+    server: {
     proxy: {
+      // 字符串简写写法
+      // 选项写法
       '/api': {
         target: 'http://localhost:5678',
         changeOrigin: true,
-        rewrite: path => path.replace(/^\/api/, '')
-      }
+        rewrite: (path) => path.replace(/^\/api/, '')
+      },
+      '/apc': {
+        target: 'http://localhost:5555',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/apc/, '')
+      },
+      // 正则表达式写法
     }
   },
   css: {
